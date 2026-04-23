@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://calculadora-imc.vercel.app"),
+  metadataBase: new URL("https://calculadora-imc-five-mu.vercel.app"),
   title: "Calculadora de IMC (Índice de Massa Corporal)",
   description:
     "Calcule seu IMC (Índice de Massa Corporal) e veja a classificação: abaixo do peso, peso normal, sobrepeso e obesidade. Ferramenta gratuita e rápida.",
