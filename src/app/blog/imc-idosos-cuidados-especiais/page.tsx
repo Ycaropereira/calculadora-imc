@@ -173,7 +173,7 @@ export default function Post() {
               Sinais de alerta nutricional:
             </p>
             <ul className="list-disc pl-6 text-zinc-700 leading-relaxed">
-              <li>Perda de peso não intencional (>5% em 6 meses)</li>
+              <li>Perda de peso não intencional (mais de 5% em 6 meses)</li>
               <li>Falta de apetite persistente</li>
               <li>Dificuldade para mastigar ou engolir</li>
               <li>Comer sozinho frequentemente</li>

@@ -172,7 +172,7 @@ export default function Post() {
             </p>
             <ul className="list-disc pl-6 text-zinc-700 leading-relaxed">
               <li>Eliminam grupos alimentares inteiros</li>
-              <li>Prometem perda rápida (>2kg por semana)</li>
+              <li>Prometem perda rápida (mais de 2kg por semana)</li>
               <li>Restringem calorias abaixo de 1200 por dia</li>
               <li>Exigem suplementos caros</li>
               <li>Não são sustentáveis a longo prazo</li>
