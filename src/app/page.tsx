@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 
 type Sexo = "M" | "F";
 
@@ -339,6 +340,84 @@ export default function Home() {
                 percentis específicos de idade e sexo.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="mt-10 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-bold text-zinc-900">Aprenda mais sobre IMC e saúde</h2>
+          <p className="mt-2 text-zinc-700 leading-relaxed">
+            Explore nossos guias completos para entender melhor seu Índice de Massa Corporal e como manter uma vida saudável.
+          </p>
+          
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <Link 
+              href="/blog/o-que-e-imc-como-calcular"
+              className="group block rounded-xl border border-zinc-200 bg-zinc-50 p-4 transition hover:border-emerald-300 hover:bg-emerald-50"
+            >
+              <h3 className="font-semibold text-zinc-900 group-hover:text-emerald-700 transition-colors">
+                O que é IMC e como calcular?
+              </h3>
+              <p className="mt-1 text-sm text-zinc-600">
+                Guia completo sobre o Índice de Massa Corporal e sua importância para a saúde.
+              </p>
+              <span className="mt-2 inline-flex text-sm text-emerald-700 group-hover:text-emerald-800">
+                Ler artigo →
+              </span>
+            </Link>
+            
+            <Link 
+              href="/blog/tabela-imc-entenda-os-resultados"
+              className="group block rounded-xl border border-zinc-200 bg-zinc-50 p-4 transition hover:border-emerald-300 hover:bg-emerald-50"
+            >
+              <h3 className="font-semibold text-zinc-900 group-hover:text-emerald-700 transition-colors">
+                Tabela IMC: entenda os resultados
+              </h3>
+              <p className="mt-1 text-sm text-zinc-600">
+                Análise detalhada de todas as faixas de classificação do IMC.
+              </p>
+              <span className="mt-2 inline-flex text-sm text-emerald-700 group-hover:text-emerald-800">
+                Ler artigo →
+              </span>
+            </Link>
+            
+            <Link 
+              href="/blog/como-perder-peso-forma-saudavel"
+              className="group block rounded-xl border border-zinc-200 bg-zinc-50 p-4 transition hover:border-emerald-300 hover:bg-emerald-50"
+            >
+              <h3 className="font-semibold text-zinc-900 group-hover:text-emerald-700 transition-colors">
+                Como perder peso de forma saudável
+              </h3>
+              <p className="mt-1 text-sm text-zinc-600">
+                Dicas práticas e seguras para alcançar seu peso ideal sem dietas radicais.
+              </p>
+              <span className="mt-2 inline-flex text-sm text-emerald-700 group-hover:text-emerald-800">
+                Ler artigo →
+              </span>
+            </Link>
+            
+            <Link 
+              href="/blog/diferenca-imc-percentual-gordura"
+              className="group block rounded-xl border border-zinc-200 bg-zinc-50 p-4 transition hover:border-emerald-300 hover:bg-emerald-50"
+            >
+              <h3 className="font-semibold text-zinc-900 group-hover:text-emerald-700 transition-colors">
+                IMC vs Percentual de Gordura
+              </h3>
+              <p className="mt-1 text-sm text-zinc-600">
+                Entenda a diferença entre as duas métricas e qual usar em cada situação.
+              </p>
+              <span className="mt-2 inline-flex text-sm text-emerald-700 group-hover:text-emerald-800">
+                Ler artigo →
+              </span>
+            </Link>
+          </div>
+          
+          <div className="mt-6 text-center">
+            <Link 
+              href="/blog"
+              className="inline-flex items-center text-emerald-700 hover:text-emerald-800 font-medium transition-colors"
+            >
+              Ver todos os artigos do blog →
+            </Link>
           </div>
         </section>
       </div>
